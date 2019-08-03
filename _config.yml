@@ -73,8 +73,20 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
-
+#theme: landscape
+# icarus start
+theme: icarus
+navbar:
+  menu:
+    Home: /
+    Special!: /Special
+menu:
+  Home: .
+  Archives: archives
+  Categories: categories
+  Tags: tags
+  Profile: profile
+# icarus end
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
